@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header section */
+
+.header {
+    background-color: #273852;
+    padding: 10px;
+    text-align: center;
+}
+
+.heading {
+    border: 1px solid #d35d46;
+    background-color: #fffffd;
+    color: #273852;
+    display: table;
+    margin: 0 auto;
+    padding: 5px 30px;
+}
+
+.small {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* Container Section */
+
+.container {
+    color: #273852;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.select {
+    margin-left: 90px;
+}
+
+#select_option{
+    margin-top: 10px;
+    height:30px;
+    width: 150px;
+}
+
+.container h2{
+    margin: 20px;
+}
+
+.subscribe{
+    margin-right: 50px;
+}
+
+#input_type{
+    margin-top: 10px;
+    height: 25px;
+    width: 150px;
+}
+
+#btn {
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+    background-color: #273852;
+    color: #fffffd;
+    margin-top: 5px;
+    margin-left: -4px;
+    border: none;
+}
+
+#line{
+    margin-top: 20px;
+    width: 95%;
+    margin-left: 30px;
+}
+
+/* Card Section */
+
+.card {
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+}
+
+.card img {
+    height: 190px;
+    width: 200px;
+}
+
+.inner-card h3 {
+    color: #273852;
+}
+
+.inner-card p {
+    margin-top: 10px;
+    line-height: 1.5;
+    font-size: 15px;
+    word-wrap: break-word;
+    max-width: 100%;
+    text-align:justify ;
+}
+
+.inner-card {
+    margin-left: 10px;
+}
+
+.btn {
+    background-color: #d35d46;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 8px;
+    color: #fffffd;
+    margin-top: 40px;
+    border: none;
+}
+
+#line1 {
+    background-color: #ffffff;
+    margin-top: 20px;
+    width: 70%;
+    margin-left: 30px;
+}
+
+/* Footer section */
+
+.footer {
+    height: 20px;
+    background-color: #273852;
+    margin-top: 20px;
+    text-align: center;
+    color: #fffffd;
+    font-weight: 100;
+    padding: 10px;
+    font-size: 8px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .select {
+        margin-left: 30px;
+    }
+    .container h2{
+        margin-bottom: -1px;
+        margin-top: 30px;
+        margin-left: 30px;
+        order: 2;
+    }
+    .subscribe {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .card {
+        display: block;
+    }
+
+    .inner-card {
+        margin-top: 10px;
+        margin-left: 2px;
+    }
+    .card img {
+        width: 100%;
+    }
+}
